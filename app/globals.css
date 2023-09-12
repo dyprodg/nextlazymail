@@ -5,9 +5,20 @@
 @tailwind utilities;
 
 :root {
-  background: rgb(222,250,255);
-background: linear-gradient(90deg, rgba(222,250,255,1) 0%, rgba(87,0,227,1) 100%);
+  background: rgb(181,136,255);
+  background: linear-gradient(256deg, rgba(181,136,255,1) 14%, rgba(222,250,255,1) 100%);
 }
+
+.navbar {
+  background: rgb(215,190,255);
+  background: linear-gradient(205deg, rgba(215,190,255,1) 0%, rgba(222,250,255,1) 100%);
+}
+
+.footer {
+  background: rgb(215,190,255);
+  background: linear-gradient(205deg, rgba(215,190,255,1) 0%, rgba(222,250,255,1) 100%);
+}
+
 
 .black_btn {
 border: 1px solid;

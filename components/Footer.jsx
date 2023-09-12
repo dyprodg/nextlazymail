@@ -2,7 +2,7 @@
 
 const Impressum = () => {
   return (
-<div className="flex flex-wrap px-10">
+<div className="footer flex flex-wrap px-10">
       <div className="w-full sm:w-1/2 md:w-1/2 p-4 text-xs">
         <h2 className="text-lg font-semibold mb-4">Personal Information</h2>
         <p>Name:Jon Doe</p>

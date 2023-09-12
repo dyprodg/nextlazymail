@@ -10,7 +10,7 @@ const Nav = () => {
   return (
 
     
-    <nav className='flex justify-between items-center p-4 shadow-md'>
+    <nav className='navbar flex justify-between items-center p-4 shadow-md'>
       <Link href="/" className='flex items-center gap-2'>
         <Image
           src="/lazymail.svg"
