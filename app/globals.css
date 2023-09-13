@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 :root {
-  background: rgb(181,136,255);
-  background: linear-gradient(256deg, rgba(181,136,255,1) 14%, rgba(222,250,255,1) 100%);
+background: rgb(181,136,255);
+background: linear-gradient(256deg, rgba(181,136,255,1) 14%, rgba(222,250,255,1) 100%);
 }
 
 .navbar {

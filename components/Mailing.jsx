@@ -9,7 +9,7 @@ const Mailing = () => {
       <div className="flex sm:col-span-2 m-4 text-sm flex-col">
           <label className="mb-2">Zu beantwortende Email:</label>
           <textarea
-            className="w-full border border-gray-300 shadow-lg rounded-xl p-2"
+            className="w-full  shadow-lg shadow-white rounded-xl p-2"
             placeholder="Füge ein deine Email auf die du die Antwort haben willst"
             name="inputMail"
             id="inputMail"
@@ -19,7 +19,7 @@ const Mailing = () => {
         <div className="flex sm:col-span-1 m-4 text-sm flex-col">
           <label className="mb-2">Antwort Context:</label>
           <textarea
-            className="w-full border border-gray-300 shadow-lg rounded-xl p-2"
+            className="w-full  shadow-lg shadow-white rounded-xl p-2"
             placeholder="Füge ein Kontext deiner Antwort hinzu"
             name="inputMail"
             id="inputMail"
@@ -52,7 +52,7 @@ const Mailing = () => {
       <div className="flex sm:col-span-3 m-4 text-sm flex-col">
           <label className="mb-2">AI Generated Mail:</label>
           <textarea
-            className="w-full border border-gray-300 shadow-lg rounded-xl p-2"
+            className="w-full shadow-lg shadow-white rounded-xl p-2"
             placeholder="Hier wird deine Email sein"
             name="outputMail"
             id="outputMail"
@@ -67,10 +67,21 @@ const Mailing = () => {
         </div>
         <div className="flex sm:col-span-1 m-4 text-sm flex-col">
           <label className="mb-2">Upload Document:</label>
-          <AiOutlineCloudUpload
-          className='w-10 h-10'
-          />
-          {/* Hier kommen dann die Documents hin*/}
+          <div className='w-full sm:h-[220px] h-[100px] flex border-2 border-white rounded-xl shadow-lg shadow-white'>
+          
+          <div className='w-full grid sm:grid-cols-2 grid-cols-4 space-x-2flex-col items-end'>
+          <div className='m-4 text-xl p-4 border rounded-xl'>
+            <AiOutlineCloudUpload
+          className='w-9 h-auto' 
+          /></div>
+          
+            {/* Hier kommen dann die Documents hin*/}
+            <div className='m-4 text-xl p-4 py-5 border rounded-xl'>Item1</div>
+            <div className='m-4 text-xl p-4 py-5 border rounded-xl'>Item1</div>
+            <div className='m-4 text-xl p-4 py-5 border rounded-xl'>Item1</div>
+            
+          </div>
+          </div>
         </div>
       </div>
       
